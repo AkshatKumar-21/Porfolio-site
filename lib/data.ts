@@ -42,6 +42,8 @@ export const projectsData = [
     description: "Developed a feature-rich E-commerce website using the MERN(MongoDB,Express.js, React.js, Node.js) stack",
     tags: ["React", "MongoDB", "Tailwind", "Node.js"],
     imageUrl: ecommerce,
+    link: "https://mern-e-commerce-final-form.vercel.app/"
+    
   },
   {
     title: "Music-Player-App",
@@ -49,6 +51,7 @@ export const projectsData = [
       " Designed and built a robust music application using Next.js, Supabase, and PostgreSQL, featuring seamless user experience and functionality",
     tags: ["Next.js", "TypeScript", "Supabase", "Tailwind"],
     imageUrl: musicplayer,
+    link : "https://music-player-app-sage.vercel.app/"
   },
   
 ] as const;
@@ -79,6 +82,7 @@ export const experiencesData = [
       "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
+    
   },
   {
     title: "Front-End Developer",
